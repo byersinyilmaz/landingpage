@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins extralight, sans serif;
+    color: #666666;
+    box-sizing: border-box;
+   
+}
+
+
+
+@font-face {
+    font-family: 'modernline - Personal Use';
+    src: url('modernlinePersonalUse.woff2') format('woff2'),
+        url('modernlinePersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+
+}
+
+.navbar{
+    margin: 20px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.navbar img{
+    width: 270px;
+    margin: 10px;
+    position: relative;
+    left: 100px;
+}
+
+ul{
+    flex: 1;
+text-align: right;
+
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #666666;
+    padding: 20px;
+    position: relative;
+}
+
+ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #666666;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transition: 0.5s;
+    
+
+}
+
+ul li a:hover::after{
+    width: 64%;
+    
+}
+
+.banner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    bottom: 45px;
+    
+
+}
+
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background-color: #666666;
+    opacity: 20%;
+    margin-bottom: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 30px;
+    
+    
+}
+
+#training {
+    color: #666666;
+    padding: 10rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#training .items .item{
+    width: 300px;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    transition: width 2s;
+    
+
+    
+}
+.secondtitle{
+    font-family: 'modernline - Personal Use';
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    opacity: 70%;
+    
+}
+    .item h3{
+        font-family: poppins extralight, sans serif;
+        padding: 0.1rem;
+        border: 1px solid #666666;
+        border-radius: 15px
+        }
+
+    .item p{
+        font-family: poppins thin, sans serif;
+        padding: 1rem;
+    }
+    
+
+
+/* .secondtitle::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #666666;
+    position: absolute;
+    bottom: -10px;
+    left: 510px;
+    transition: 0.5s;
+}
+
+.secondtitle:hover::after{
+    width: 20rem;
+} */
+
+#training .items .item:hover{
+    width: 400px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+
+    }
+    
+    
+#My-work{
+    position: relative;
+    top: 80px;
+}
+   
+   
+#My-work .Photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+    position: relative;
+    bottom: 100px;
+    
+    
+}
+
+#My-work .Photos .photo img{
+    width: 300px;
+    
+    
+}
+
+#My-work .Photos .photo img:hover{
+    width: 350px;
+}
+
+.My-work-title{
+    font-family: 'modernline - Personal Use';
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    opacity: 70%;
+    
+}
+
+/* body .box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    transform-style: preserve-3d;
+    animation: animate 1.4s linear infinite;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: perspective(300px) rotate(0deg);
+    }
+    0%{
+        transform: perspective(300px) rotate(360deg);
+    }
+}
+
+.box div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--v) * 10deg)); translateZ(300px);
+
+} */
+
+#My-work .Photos .photo img{
+    border-radius: 20px;
+}
+
+h5{
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    /* border: 1px solid #666666;
+border-radius: 5px; */
+}
+
+
+.contact-form ul{
+    list-style-type: none;
+position: relative;
+bottom: 300px;
+left: 500px;
+text-align: center;
+
+
+    
+}
+
+h6{
+    font-size: 20px;
+}
+
+i{
+    width: 100px;
+    padding: 20px;
+    
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.phone-mail ul{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.social-media{
+    position: relative;
+    bottom: 200px;
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

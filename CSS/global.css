@@ -1,0 +1,41 @@
+/* Forms */
+.contact-form{
+    max-width: 700px;
+    margin-left: 200px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.form-group{
+    padding: 0.25rem 0;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.form-control{
+    width: 100%;
+    padding: 00.50rem;
+    resize: none;
+    
+}
+.form-group label{
+    display: block;
+    
+}
+
+.btn-block{
+    padding: 5px;
+}
+
+h4{
+    
+    font-size: 35px;
+    font-family: poppins thin, sans serif;
+    
+}
